@@ -1,0 +1,16 @@
+class Aluno {
+    private final String nome;
+    private final String matricula;
+    private final Nota nota;
+
+    public Aluno(String nome, String matricula, Nota nota) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.nota = nota;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + ", Matrícula: " + matricula + ", Nota: " + nota;
+    }
+}
