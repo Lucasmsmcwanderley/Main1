@@ -1,0 +1,14 @@
+class Professor {
+    private final String nome;
+    private final String departamento;
+
+    public Professor(String nome, String departamento) {
+        this.nome = nome;
+        this.departamento = departamento;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + ", Departamento: " + departamento;
+    }
+}
