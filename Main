@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Professor professor = new Professor("Dr. João Silva", "Matemática");
+
+        Nota nota = new Nota("Matemática", 9.0, 2024);
+
+        Aluno aluno = new Aluno("Maria Oliveira", "20231234", nota);
+
+        Disciplina disciplina = new Disciplina("Matemática", "MAT101", aluno, professor);
+
+        System.out.println(disciplina);
+    }
+}
