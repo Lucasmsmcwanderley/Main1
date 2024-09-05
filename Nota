@@ -1,0 +1,16 @@
+class Nota {
+    private final String disciplina;
+    private final double valor;
+    private final int ano;
+
+    public Nota(String disciplina, double valor, int ano) {
+        this.disciplina = disciplina;
+        this.valor = valor;
+        this.ano = ano;
+    }
+
+    @Override
+    public String toString() {
+        return "Disciplina: " + disciplina + ", Nota: " + valor + ", Ano: " + ano;
+    }
+}
