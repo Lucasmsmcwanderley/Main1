@@ -1,0 +1,18 @@
+class Disciplina {
+    private final String nome;
+    private final String codigo;
+    private final Aluno aluno;
+    private final Professor professor;
+
+    public Disciplina(String nome, String codigo, Aluno aluno, Professor professor) {
+        this.nome = nome;
+        this.codigo = codigo;
+        this.aluno = aluno;
+        this.professor = professor;
+    }
+
+    @Override
+    public String toString() {
+        return "Disciplina: " + nome + ", Código: " + codigo + ", Aluno: " + aluno + ", Professor: " + professor;
+    }
+}
